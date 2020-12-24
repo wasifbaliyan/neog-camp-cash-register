@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cash Regiter App by Wasif Baliyan</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <h1 class="header-heading">💵 Cash Register</h1>
+            <button class="toggle-mode">☀️</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <form class="user-input">
+                <h2 class="user-heading">Enter Bill Amount And Cash Paid</h2>
+                <div class="bill-input">
+                    <label for="bill">Bill Amount:</label>
+                    <input type="number" min="0" required id="bill" class="bill-amount">
+                </div>
+                <div class="cash-input">
+                    <label for="cash">Cash Paid: </label>
+                    <input type="number" min="0" required id="cash" class="cash-amount">
+                </div>
+                <button type="submit" class="btn">Check Notes</button>
+            </form>
+            <div class="result-display">
+                <h2 class="error"></h2>
+                <ul class="note-list"></ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-list">
+            <ul class="list">
+                <li class="list-item"><a href="https://twitter.com/wasifbaliyan" class="list-link">Twitter</a></li>
+                <li class="list-item"><a href="https://github.com/wasifbaliyan" class="list-link">Github</a></li>
+                <li class="list-item"><a href="https://linkedin.com/in/wasifbaliyan" class="list-link">LinkedIn</a></li>
+                <li class="list-item"><a href="https://instagram.com/wasifbaliyan" class="list-link">Instagram</a></li>
+                <li class="list-item"><a href="https://wasifbaliyan.netlify.app" class="list-link">Portfolio</a></li>
+            </ul>
+        </div>
+        <small>&copy wasifbaliyan 2020</small>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+</html>
